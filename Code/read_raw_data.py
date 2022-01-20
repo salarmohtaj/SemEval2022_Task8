@@ -58,6 +58,6 @@ for index, row in df.iterrows():
                         "url_backup": url2_2}
 
 print(f'The number of documents that repeated more than one time is {counter} documents.')
-print(f'There are the total number of {len(doc_dic)} documents to scrap.')
+print(f'There are the total number of {len(doc_dic)} documents to scrape.')
 with open(os.path.join(data_dir, output_data_name), "w") as f:
     json.dump(doc_dic, f)
